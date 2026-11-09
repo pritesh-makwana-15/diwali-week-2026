@@ -294,7 +294,7 @@
     $('.w-en', wm).textContent = U.welcome_en; $('.w-gu', wm).textContent = U.welcome_gu;
     $('.l-en', wm).textContent = U.name_label_en; $('.l-gu', wm).textContent = U.name_label_gu;
     wi.placeholder = U.name_label_en + ' / ' + U.name_label_gu;
-    $('#w-go').textContent = U.continue_en + ' / ' + U.continue_gu; $('#w-skip').textContent = U.skip_en + ' / ' + U.skip_gu;
+    $('#w-go').textContent = U.continue_en + ' / ' + U.continue_gu;
     $('.h-en', wm).textContent = U.how_title_en; $('.h-gu', wm).textContent = U.how_title_gu;
     U.guide.forEach((g) => { const li = document.createElement('li'); const ic = document.createElement('span'); ic.className = 'guide__ic'; ic.textContent = g.icon; ic.setAttribute('aria-hidden', 'true');
       const t = document.createElement('span'); t.className = 'guide__t'; const a = document.createElement('span'); a.textContent = g.en; const b = document.createElement('span'); b.className = 'gu'; b.textContent = g.gu; t.append(a, b); li.append(ic, t); $('#w-guide').appendChild(li); });
@@ -341,7 +341,6 @@
     DW.openWelcome = openWelcome;
     DW.reset = () => { DW.nav.home(); A.reset(); openWelcome(); };
     $('#w-form').addEventListener('submit', (e) => { e.preventDefault(); closeWelcome(true); });
-    $('#w-skip').addEventListener('click', () => { wi.value = ''; wc.value = ''; wg.value = ''; closeWelcome(true); });
     ['#f-name', '#op-name'].forEach((q) => $(q).addEventListener('click', openWelcome));
     $('#c-change').addEventListener('click', openWelcome);
     // visitor count read from the Google Sheet (doGet); hidden if it fails

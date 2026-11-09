@@ -1,0 +1,25 @@
+/* animations.css - CSS keyframes for flames, lights, floating items. (Particles/fireworks are Canvas/JS.) */
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes rgspin{to{transform:rotateX(66deg) rotateZ(360deg)}}
+@keyframes kenburns{from{transform:scale(1.06) translate(0,0)}to{transform:scale(1.16) translate(-1.5%,-1%)}}
+@keyframes dust{0%{transform:translate3d(0,0,0);opacity:0}10%{opacity:.9}85%{opacity:.7}100%{transform:translate3d(30px,-110vh,0);opacity:0}}
+@keyframes flicker{0%{transform:translateX(-50%) scale(1,1) rotate(-2deg);filter:brightness(1)}20%{transform:translateX(-50%) scale(.92,1.1) rotate(2deg)}45%{transform:translateX(-50%) scale(1.05,.94) rotate(-1deg);filter:brightness(1.15)}70%{transform:translateX(-50%) scale(.95,1.08) rotate(1.5deg)}100%{transform:translateX(-50%) scale(1.03,.97) rotate(-2deg);filter:brightness(.95)}}
+@keyframes bulb{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.85)}}
+@keyframes bulbs{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@keyframes twinkle{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes win{0%{opacity:.7;filter:brightness(.9)}100%{opacity:1;filter:brightness(1.25)}}
+@keyframes sway{from{transform:translate(var(--tx,0),0) rotate(-3deg)}to{transform:translate(var(--tx,0),0) rotate(3deg)}}
+@keyframes bounce{0%,100%{transform:translateY(0) scale(1,1)}45%{transform:translateY(-16px) scale(.97,1.05)}60%{transform:translateY(0) scale(1.06,.94)}}
+@keyframes wiggle{0%,100%{transform:rotate(-10deg)}50%{transform:rotate(12deg) scale(1.1)}}
+@keyframes popup{0%{transform:translate(-50%,-50%) scale(.3);opacity:1}100%{transform:translate(-50%,-260%) scale(1.5);opacity:0}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+@keyframes glow{from{text-shadow:0 0 10px #FFD700,0 0 24px #FF9933}to{text-shadow:0 0 18px #FFF2D5,0 0 44px #FFB300,0 0 80px #FF6A00}}
+@keyframes floatheart{0%,100%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(-18px) rotate(6deg)}}
+@keyframes btnpulse{0%{box-shadow:0 0 0 0 rgba(255,215,0,.6),0 10px 40px rgba(255,160,0,.45)}70%{box-shadow:0 0 0 22px rgba(255,215,0,0),0 10px 40px rgba(255,160,0,.45)}100%{box-shadow:0 0 0 0 rgba(255,215,0,0),0 10px 40px rgba(255,160,0,.45)}}
+.btn--start{animation:btnpulse 2.4s ease-out infinite}
+.btn--burst .burst-ico{display:inline-block;animation:spin 3s linear infinite}
+.page--4.celebrating .moon{animation:pulse 2s ease-in-out infinite}
+
+/* tab hidden => every CSS animation pauses */
+body.is-hidden *,body.is-hidden *::before,body.is-hidden *::after{animation-play-state:paused!important}

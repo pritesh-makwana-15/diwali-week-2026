@@ -1,0 +1,135 @@
+{
+  "_note": "Functional UI labels (buttons, aria-labels, placeholders) that content.json does not contain. They are NOT festival wishes. Owner: please review / translate if you like. content.json is untouched.",
+  "fireworks_toggle": "Fireworks",
+  "celebration_mode": "Celebration Mode",
+  "diya": "Diya",
+  "family_name_label": "Family name",
+  "family_name_placeholder": "Enter your family name",
+  "create_card": "Create Card",
+  "download_card": "Download Card",
+  "share_whatsapp": "Share on WhatsApp",
+  "timeline": "Timeline",
+  "page": "Page",
+  "progress": "Progress",
+  "of": "of",
+  "fetch_error_title": "Could not load content.json",
+  "fetch_error_body": "Please run a local web server in this folder, for example: python3 -m http.server 8080 (or: npx serve), then open http://localhost:8080",
+  "dev_credit_en": "Developed with ❤ by Pritesh R. Makwana",
+  "dev_credit_gu": "❤ સાથે વિકસાવ્યું: પ્રિતેશ આર. મકવાણા",
+  "family_en": "Makwana Family",
+  "family_gu": "મકવાણા પરિવાર",
+  "place_en": "Lathidad, Botad, Gujarat",
+  "place_gu": "લાઠીદડ, બોટાદ, ગુજરાત",
+  "special_gu": "આપ સૌને દિવાળી અને નૂતન વર્ષની હાર્દિક શુભકામનાઓ! તમારું જીવન પ્રકાશ, પ્રેમ અને ખુશીઓથી ઝળહળતું રહે.",
+  "special_en": "Wishing you a Diwali full of light, love and joy. May the new year bring you good health, happiness and success.",
+  "instagram": "Instagram",
+  "linkedin": "LinkedIn",
+  "credits": "Credits",
+  "close": "Close",
+  "instagram_url": "https://www.instagram.com/pritesh_makwana_15",
+  "linkedin_url": "https://www.linkedin.com/in/makwanapritesh",
+  "family_art_label": "Cartoon family illustration",
+  "welcome_en": "Welcome",
+  "welcome_gu": "સ્વાગત છે",
+  "name_label_en": "Enter your name",
+  "name_label_gu": "તમારું નામ લખો",
+  "continue_en": "Continue",
+  "continue_gu": "આગળ વધો",
+  "skip_en": "Skip",
+  "skip_gu": "છોડો",
+  "how_title_en": "How to use this site",
+  "how_title_gu": "આ સાઇટનો ઉપયોગ કેવી રીતે કરવો",
+  "guide": [
+    {
+      "icon": "✨",
+      "en": "Press START CELEBRATION to begin (music starts only then).",
+      "gu": "શરૂ કરવા માટે START CELEBRATION દબાવો (સંગીત ત્યારે જ શરૂ થશે)."
+    },
+    {
+      "icon": "↔",
+      "en": "Use Next/Previous buttons, arrow keys or swipe to move between days.",
+      "gu": "દિવસો વચ્ચે જવા માટે Next/Previous બટન, એરો કી અથવા સ્વાઇપનો ઉપયોગ કરો."
+    },
+    {
+      "icon": "🎆",
+      "en": "Fireworks are ON by default: tap the sky to launch fireworks, tap diyas to light them. Use the Fireworks button to turn them off.",
+      "gu": "આતશબાજી શરૂઆતથી ચાલુ છે: આકાશને ટેપ કરો, દીવા ટેપ કરીને પ્રગટાવો. બંધ કરવા Fireworks બટન વાપરો."
+    },
+    {
+      "icon": "🎵",
+      "en": "Use the music button to turn sound on/off or change volume.",
+      "gu": "સંગીત બટનથી અવાજ ચાલુ/બંધ કરો અથવા વોલ્યુમ બદલો."
+    },
+    {
+      "icon": "💌",
+      "en": "On the last page, create and share your family greeting card.",
+      "gu": "છેલ્લા પેજ પર તમારું ફેમિલી ગ્રીટિંગ કાર્ડ બનાવો અને શેર કરો."
+    }
+  ],
+  "change_name": "Change name / નામ બદલો",
+  "hello_diwali_en": "Happy Diwali, {name}! 🪔",
+  "hello_diwali_gu": "હેપ્પી દિવાળી, {name}!",
+  "hello_ny_en": "Happy New Year, {name}!",
+  "hello_ny_gu": "સાલ મુબારક, {name}!",
+  "city_label_en": "Enter your city",
+  "city_label_gu": "તમારું શહેર લખો",
+  "find_me": "Find me on / મને અહીં શોધો",
+  "design_a": "Royal Gold",
+  "design_b": "Festive Night",
+  "card_hint": "Tap a card to download it / કાર્ડ ડાઉનલોડ કરવા તેના પર ટેપ કરો",
+  "back_welcome": "Back to Welcome / શરૂઆત પર પાછા જાઓ",
+  "card_for": "Card for:",
+  "change_details": "Change details / વિગત બદલો",
+  "privacy": "Your name, city and gender (optional) are saved to personalise your greeting and count visitors. / તમારું નામ, શહેર અને લિંગ (વૈકલ્પિક) તમારું ગ્રીટિંગ બનાવવા અને મુલાકાતીઓ ગણવા સાચવવામાં આવે છે.",
+  "views": "Visitors",
+  "kc_diya_aria": "Light a diya / દીવો પ્રગટાવો",
+  "kc_diya_hint": "Tap the diya / દીવા પર ટેપ કરો",
+  "kc_mystery": "Mystery Reveal / રહસ્ય ખોલો",
+  "kc_darshan": "Maa Kali Darshan / મા કાળી દર્શન",
+  "kc_blessing": "Divine Blessing / દિવ્ય આશીર્વાદ",
+  "kc_amb_on": "Spooky ambience: ON / ડરામણું વાતાવરણ: ચાલુ",
+  "kc_amb_off": "Spooky ambience: OFF / ડરામણું વાતાવરણ: બંધ",
+  "alt_ghost": "Soft ghost silhouette",
+  "alt_house": "Haunted house at night",
+  "alt_forest": "Dark foggy forest under a full moon",
+  "alt_kali": "Maa Kali, traditional devotional artwork",
+  "dev_name_en": "Pritesh R. Makwana",
+  "dev_name_gu": "પ્રિતેશ આર. મકવાણા",
+  "wishes_me": "Happy wishes from me / મારા તરફથી શુભેચ્છાઓ",
+  "gender_label_en": "Gender (optional)",
+  "gender_label_gu": "લિંગ (વૈકલ્પિક)",
+  "gender_opts": [
+    {
+      "v": "",
+      "en": "Select",
+      "gu": "પસંદ કરો"
+    },
+    {
+      "v": "Male",
+      "en": "Male",
+      "gu": "પુરુષ"
+    },
+    {
+      "v": "Female",
+      "en": "Female",
+      "gu": "સ્ત્રી"
+    },
+    {
+      "v": "Other",
+      "en": "Other",
+      "gu": "અન્ય"
+    },
+    {
+      "v": "Prefer not to say",
+      "en": "Prefer not to say",
+      "gu": "કહેવા માંગતો નથી"
+    }
+  ],
+  "ws_btn": "Wish Together / સાથે શુભેચ્છા 🎉",
+  "ws_close": "Close / બંધ કરો",
+  "ws_you": "You / તમે",
+  "ws_left": "Pritesh",
+  "ws_title_en": "Happy New Year",
+  "ws_title_gu": "સાલ મુબારક!",
+  "alt_avatar": "Pritesh R. Makwana"
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Grand Diwali Celebration 2026 - Makwana Family</title>
+<meta name="description" content="Makwana Family (મકવાણા પરિવાર) - આવો ઉજવીએ પ્રકાશ, પ્રેમ અને ખુશીઓનો તહેવાર">
+<meta name="theme-color" content="#170E2D">
+
+<!-- Open Graph / WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Grand Diwali Celebration 2026 - Makwana Family">
+<meta property="og:description" content="Makwana Family (મકવાણા પરિવાર) - આવો ઉજવીએ પ્રકાશ, પ્રેમ અને ખુશીઓનો તહેવાર">
+<meta property="og:image" content="assets/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Grand Diwali Celebration 2026 - Makwana Family">
+<meta property="og:locale" content="gu_IN">
+<!-- After deploying, change the two image URLs to absolute https:// URLs and add og:url (see README.md) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Grand Diwali Celebration 2026 - Makwana Family">
+<meta name="twitter:description" content="Makwana Family (મકવાણા પરિવાર) - આવો ઉજવીએ પ્રકાશ, પ્રેમ અને ખુશીઓનો તહેવાર">
+<meta name="twitter:image" content="assets/images/og-image.jpg">
+
+<link rel="icon" href="assets/icons/diya.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/playfair-display-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/noto-sans-gujarati-gujarati-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="is-opening">
+
+<footer id="foot" class="foot"><span class="foot__t foot__en"></span><span class="foot__t foot__gu gu"></span><span class="foot__t foot__views" id="f-views" hidden></span></footer>
+<div id="credits-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="cr-title"><div class="modal__box glass"><h2 id="cr-title" class="cm__title"></h2><div id="cr-body" class="modal__body"></div><button id="cr-close" class="btn btn--gold" type="button"></button></div></div>
+<div id="fatal" class="fatal" hidden role="alert"></div>
+
+<!-- ========== OPENING SCREEN ========== -->
+<div id="welcome" class="modal welcome" role="dialog" aria-modal="true" aria-labelledby="w-title" hidden><form id="w-form" class="modal__box glass welcome__box" autocomplete="off"><h2 id="w-title" class="welcome__title"><span class="w-en"></span><span class="w-gu gu"></span></h2><label for="w-name" class="welcome__label"><span class="l-en"></span> / <span class="l-gu gu"></span></label><input id="w-name" type="text" maxlength="30" inputmode="text" autocapitalize="words" autocomplete="off"><label for="w-city" class="welcome__label"><span class="c-en"></span> / <span class="c-gu gu"></span></label><input id="w-city" type="text" maxlength="30" inputmode="text" autocapitalize="words" autocomplete="off"><label for="w-gender" class="welcome__label"><span class="g-en"></span> / <span class="g-gu gu"></span></label><select id="w-gender"></select><input id="w-website" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"><p class="welcome__priv" id="w-priv"></p><div class="welcome__actions"><button type="submit" class="btn btn--gold" id="w-go"></button><button type="button" class="welcome__skip" id="w-skip"></button></div><h3 class="welcome__how"><span class="h-en"></span> / <span class="h-gu gu"></span></h3><p class="welcome__views" id="w-views" hidden></p><ol id="w-guide" class="guide"></ol></form></div>
+<section id="opening" class="opening" aria-label="Opening">
+  <div class="opening__sky"></div>
+  <div class="dust" aria-hidden="true"></div>
+  <div id="fx-opening" class="fx" aria-hidden="true"></div>
+  <svg class="mandala" viewBox="0 0 400 400" aria-hidden="true">
+    <g fill="none" stroke="#FFD700" stroke-width="1.2" opacity=".55">
+      <circle cx="200" cy="200" r="190"/><circle cx="200" cy="200" r="150" stroke-dasharray="3 7"/><circle cx="200" cy="200" r="110"/>
+      <g id="mandala-petals"></g>
+    </g>
+  </svg>
+  <div class="opening__inner">
+    <div class="opening__diyas" aria-hidden="true">
+      <div class="lottie lottie--diya" data-lottie="diya"></div>
+      <div class="lottie lottie--lotus" data-lottie="lotus"></div>
+      <div class="lottie lottie--diya" data-lottie="diya"></div>
+    </div>
+    <h1 id="opening-title" class="opening__title"></h1>
+    <p id="opening-sub" class="opening__sub gu"></p>
+    <button id="start-btn" class="btn btn--start" type="button" disabled></button>
+    <div class="opening__nav">
+      <button id="op-prev" class="btn btn--nav" type="button" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="btn__label"></span></button>
+      <button id="op-music" class="btn btn--icon" type="button" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V6l10-2v12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.5" fill="currentColor"/><circle cx="16.5" cy="16" r="2.5" fill="currentColor"/></svg><span class="btn__label"></span></button>
+      <button id="op-name" class="btn btn--icon" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4.5 20c1-4 4-6 7.500-6s6.500 2 7.500 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="btn__label"></span></button>
+      <button id="op-fire" class="btn btn--icon is-off js-fire" type="button" aria-pressed="false"><span aria-hidden="true">✦</span><span class="btn__label"></span></button>
+      <button id="op-next" class="btn btn--nav" type="button"><span class="btn__label"></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SITE ========== -->
+<div id="site" class="site" hidden>
+  <div class="progress" role="progressbar" aria-label="Progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="progress-bar"></i></div>
+
+  <header class="hud hud--top">
+    <button id="btn-home" class="btn btn--icon btn--home" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5M5.5 10v9.5h5v-6h3v6h5V10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="btn__label"></span>
+    </button>
+    <div id="page-indicator" class="page-indicator" aria-live="polite"><b id="pi-now">1</b><span>/</span><span id="pi-total">9</span></div>
+    <div class="audio-ctl" role="group">
+      <button id="f-name" class="btn btn--icon" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4.5 20c1-4 4-6 7.500-6s6.500 2 7.500 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="btn__label"></span></button>
+      <button id="btn-fire" class="btn btn--icon is-off js-fire" type="button" aria-pressed="false"><span aria-hidden="true">✦</span><span class="btn__label"></span></button>
+      <button id="btn-music" class="btn btn--icon" type="button" aria-pressed="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V6l10-2v12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.5" fill="currentColor"/><circle cx="16.5" cy="16" r="2.5" fill="currentColor"/></svg>
+        <span class="btn__label"></span>
+      </button>
+      <button id="btn-mute" class="btn btn--icon" type="button" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor"/><path class="wave" d="M15.5 9a4 4 0 0 1 0 6M18 6.5a8 8 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="slash" d="M15 9l6 6M21 9l-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span class="btn__label"></span>
+      </button>
+      <label class="vol"><span class="sr-only" id="vol-label"></span>
+        <input id="volume" type="range" min="0" max="100" value="60" aria-labelledby="vol-label"></label>
+    </div>
+  </header>
+
+  <main id="stage" class="stage"></main>
+
+  <footer class="hud hud--bottom">
+    <button id="btn-prev" class="btn btn--nav" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="btn__label"></span></button>
+    <nav id="timeline" class="timeline"><ol></ol></nav>
+    <button id="btn-next" class="btn btn--nav" type="button"><span class="btn__label"></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  </footer>
+</div>
+
+<canvas id="fire-canvas" class="fire-canvas" aria-hidden="true"></canvas>
+<canvas id="confetti-canvas" class="confetti-canvas" aria-hidden="true"></canvas>
+
+<!-- Vendor libraries (local, no CDN) -->
+<!-- GoatCounter: the only external script (visitor counts) -->
+<script data-goatcounter="https://priteshmakwana.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/SplitText.min.js"></script>
+<script src="assets/vendor/howler.min.js"></script>
+<script src="assets/vendor/lottie.min.js"></script>
+<script src="assets/vendor/tsparticles.slim.bundle.min.js"></script>
+<script src="assets/vendor/confetti.browser.js"></script>
+<script src="assets/vendor/fireworks.umd.js"></script>
+<script src="assets/vendor/html2canvas.min.js"></script>
+<!-- App -->
+<script src="js/config.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/fireworks.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/card.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

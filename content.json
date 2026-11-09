@@ -1,0 +1,228 @@
+{
+  "_note": "SOURCE OF TRUTH for all text. AI must NEVER rewrite, translate, fix or 'improve' any Gujarati or English text here. Dates are as supplied by the owner - verify against a Gujarati panchang before publishing (especially Padatar Divas on 09 Nov and Bestu Varsh on 10 Nov).",
+
+  "site": {
+    "title": "The Grand Diwali Celebration 2026",
+    "language": "gu",
+    "fonts": {
+      "english": ["Playfair Display", "Poppins"],
+      "gujarati": ["Noto Sans Gujarati"]
+    }
+  },
+
+  "opening": {
+    "title": "THE GRAND DIWALI CELEBRATION 2026",
+    "subtitle_gu": "આવો ઉજવીએ પ્રકાશ, પ્રેમ અને ખુશીઓનો તહેવાર",
+    "button": "✨ START CELEBRATION ✨"
+  },
+
+  "pages": [
+    {
+      "id": "vagh-baras",
+      "number": 1,
+      "date": "2026-11-05",
+      "date_label": "05 November 2026",
+      "title_en": "VAGH BARAS",
+      "subtitle_gu": "વાઘ બારસની હાર્દિક શુભકામનાઓ",
+      "messages_gu": [
+        "આ પાવન દિવસ તમારા જીવનમાં સુખ, શાંતિ, સમૃદ્ધિ અને આનંદ લઈને આવે. તમારા પરિવારના જીવનમાં હંમેશા ખુશીઓનો પ્રકાશ રહે."
+      ],
+      "theme": {
+        "palette": "warm orange and golden",
+        "visuals": ["traditional Gujarati village atmosphere", "temple background", "traditional diya lighting", "golden decorative elements", "traditional Gujarati festive patterns"],
+        "animations": ["floating diyas", "glowing lights", "falling flower petals", "smooth text reveal"]
+      }
+    },
+    {
+      "id": "dhanteras",
+      "number": 2,
+      "date": "2026-11-06",
+      "date_label": "06 November 2026",
+      "title_en": "DHANTERAS – THE FESTIVAL OF PROSPERITY",
+      "subtitle_gu": "ધનતેરસની હાર્દિક શુભકામનાઓ",
+      "messages_gu": [
+        "માતા લક્ષ્મી અને ભગવાન ધન્વંતરિની કૃપાથી તમારા ઘરમાં સુખ, સમૃદ્ધિ, આરોગ્ય અને ધન-ધાન્યની વૃદ્ધિ થાય."
+      ],
+      "sections": [
+        {
+          "id": "lakshmi-pujan",
+          "title_en": "Lakshmi Pujan",
+          "message_gu": "માતા લક્ષ્મી તમારા ઘર અને પરિવાર પર હંમેશા પોતાની કૃપા વરસાવતા રહે."
+        },
+        {
+          "id": "journey-home",
+          "title_en": "THE JOURNEY HOME",
+          "message_gu": "રજાઓની શરૂઆત... હવે પરિવાર સાથે દિવાળી ઉજવવા ઘરે જવાનો સમય!",
+          "visual": "animated journey home - train or road-trip illustration"
+        }
+      ],
+      "theme": {
+        "palette": "gold and deep maroon",
+        "visuals": ["Goddess Lakshmi-inspired traditional decorative artwork", "gold coins", "kalash", "lotus flowers", "pujan thali", "rangoli and glowing diyas", "golden temple atmosphere"],
+        "animations": ["falling gold particles", "glowing lotus", "floating diyas", "soft golden light effects"]
+      }
+    },
+    {
+      "id": "kali-chaudas",
+      "number": 3,
+      "date": "2026-11-07",
+      "date_label": "07 November 2026 – Saturday",
+      "title_en": "કાળી ચૌદશ ૨૦૨૬",
+      "subtitle_gu": "રહસ્ય, શક્તિ અને ભક્તિની રાત...",
+      "date_line_gu": "શનિવાર • ૦૭ નવેમ્બર ૨૦૨૬",
+      "welcome_gu": "આજે છે કાળી ચૌદશની પવિત્ર રાત, જ્યાં અંધકાર પર પ્રકાશનો વિજય થાય છે. મા કાળીની દિવ્ય શક્તિ દરેકના જીવનમાંથી નકારાત્મકતા દૂર કરે અને સુખ, શાંતિ તથા સમૃદ્ધિ આપે.",
+      "section_a": {
+        "label_gu": "રહસ્યમય રાત",
+        "heading_gu": "રહસ્યમય રાતનું રહસ્ય 👻",
+        "text_gu": "કાળી ચૌદશની રાત... શાંત વાતાવરણ, અંધકાર અને અજાણી રહસ્યમય વાતો. લોકવાયકાઓમાં આ રાતને નકારાત્મક શક્તિઓથી રક્ષણ મેળવવા સાથે જોડવામાં આવે છે."
+      },
+      "section_b": {
+        "label_gu": "મા કાળીની દિવ્ય શક્તિ",
+        "heading_gu": "જય મા કાળી 🙏",
+        "text_gu": "મા કાળીની કૃપાથી દરેક ભય દૂર થાય, દરેક સંકટનો નાશ થાય અને જીવનમાં શક્તિ, હિંમત તથા સકારાત્મકતાનો સંચાર થાય.",
+        "mantra_gu": "ૐ ક્રીં કાલિકાયૈ નમઃ",
+        "mantra_line_gu": "ૐ મા કાળીને નમન."
+      }
+    },
+    {
+      "id": "main-diwali",
+      "number": 4,
+      "date": "2026-11-08",
+      "date_label": "08 November 2026 – Sunday",
+      "title_en": "HAPPY DIWALI 2026",
+      "subtitle_gu": "દીપાવલીના પાવન પર્વની હાર્દિક શુભકામનાઓ",
+      "messages_gu": [
+        "દીપાવલીનો દિવ્ય પ્રકાશ તમારા જીવનમાં સુખ, શાંતિ, સમૃદ્ધિ અને આનંદ લાવે. તમારા ઘર-પરિવારમાં પ્રેમ, એકતા અને ખુશીઓ હંમેશા જળવાઈ રહે."
+      ],
+      "priority": "MOST BEAUTIFUL PAGE of the whole website",
+      "theme": {
+        "palette": "deep night with gold, saffron and colourful fireworks",
+        "visuals": ["full-screen Diwali night background", "decorated Indian house", "hundreds of glowing diyas", "rangoli", "colourful fireworks", "sky rockets", "flower decorations", "hanging lights", "golden particles"],
+        "animations": ["realistic canvas fireworks", "rockets flying into sky", "firecracker explosions", "glowing diyas", "flickering candles", "floating golden particles", "rangoli reveal", "cinematic text animation"]
+      },
+      "interactive": ["click anywhere to launch a firework", "click diyas to light them", "BURST OF FIREWORKS button", "fireworks sound effect", "optional celebration mode"]
+    },
+    {
+      "id": "gujarati-fun-day",
+      "number": 5,
+      "date": "2026-11-09",
+      "date_label": "09 November 2026 – Monday",
+      "title_en": "ધોકો ડે – DHOKO DAY SPECIAL 😂",
+      "header_lines": [
+        "DHOKO DAY SPECIAL 😂",
+        "દિવાળી પછીનો મજેદાર દિવસ! 🤣",
+        "રામ રામ, ધોકા અને મોજ-મસ્તી! 😜"
+      ],
+      "cards": [
+        { "emoji": "🙏😂", "text_gu": "આજે રામ રામ કરી લેવાના કે કાલે? 🤔" },
+        { "emoji": "🥳🎊", "text_gu": "કાલે તો બેસતું વર્ષ છે ભાઈ! નવા વર્ષની શુભેચ્છાઓ તૈયાર રાખજો! 😎" },
+        { "emoji": "🎆🤣", "text_gu": "દિવાળીમાં ફટાકડા ફોડીને થાકી ગયા હશો ને? 💥" },
+        { "emoji": "😎☕", "text_gu": "તો હવે થોડો બ્રેક લઈ લો ભાઈ! ધોકા ખાવા માટે એનર્જી બચાવી રાખો! 😂" }
+      ],
+      "punchline_gu": "ધોકો ડે છે ભાઈ... એટલે આજે કોઈની વાતમાં આવતા નહીં, નહીં તો કાલે આખું વર્ષ યાદ રાખશો! 🤣💥",
+      "display_as": "meme-style cards, one message per card",
+      "theme": {
+        "palette": "colourful and playful",
+        "visuals": ["funny Gujarati cartoon illustrations", "dhokla, fafda, jalebi and Gujarati food", "funny animated characters", "meme-style layouts"],
+        "animations": ["bouncing cartoon characters", "funny emoji reactions", "animated meme cards", "confetti"]
+      },
+      "note": "Source label was 'Padatar Divas' - verify date/label with a panchang."
+    },
+    {
+      "id": "gujarati-new-year",
+      "number": 6,
+      "date": "2026-11-10",
+      "date_label": "10 November 2026",
+      "title_en": "HAPPY GUJARATI NEW YEAR 2083",
+      "subtitle_gu": "નૂતન વર્ષાભિનંદન – સાલ મુબારક!",
+      "messages_gu": [
+        "નવા વર્ષનો નવો સૂરજ તમારા જીવનમાં નવી આશાઓ, નવી તકો અને નવી સફળતાઓ લઈને આવે.",
+        "તમારા પરિવારનું જીવન સુખ, શાંતિ, આરોગ્ય અને સમૃદ્ધિથી ભરેલું રહે.",
+        "આવનારું દરેક દિવસ ખુશીઓથી ભરેલું રહે."
+      ],
+      "special_wish_gu": "સાલ મુબારક! નવા વર્ષની હાર્દિક શુભકામનાઓ!",
+      "theme": {
+        "palette": "golden and red",
+        "visuals": ["traditional Gujarati New Year decorations", "toran", "rangoli", "Shubh Labh symbols", "traditional Gujarati house", "kalash and diyas"],
+        "animations": ["animated Shubh Labh", "golden confetti", "flower shower", "glowing Gujarati wishes", "New Year reveal"]
+      },
+      "note": "Source label was 'Bestu Varsh' - verify date/label with a panchang."
+    },
+    {
+      "id": "bhai-bij",
+      "number": 7,
+      "date": "2026-11-11",
+      "date_label": "11 November 2026",
+      "title_en": "BHAI BIJ – THE BOND OF LOVE",
+      "subtitle_gu": "ભાઈબીજની હાર્દિક શુભકામનાઓ",
+      "messages_gu": [
+        "ભાઈ અને બહેનનો સંબંધ પ્રેમ, વિશ્વાસ અને લાગણીઓથી ભરેલો હોય છે.",
+        "આ પવિત્ર દિવસે દરેક બહેનના જીવનમાં ખુશીઓ રહે અને દરેક ભાઈ હંમેશા પોતાની બહેનની રક્ષા અને સાથ આપે."
+      ],
+      "theme": {
+        "palette": "warm family tones, soft pink and gold",
+        "visuals": ["brother and sister illustration", "traditional tilak ceremony", "pujan thali", "roli and rice", "flowers and diyas", "warm family atmosphere"],
+        "animations": ["animated tilak ceremony", "floating hearts", "flower petals", "text reveal"]
+      }
+    },
+    {
+      "id": "family-wishes",
+      "number": 8,
+      "date": null,
+      "date_label": null,
+      "title_en": "WITH LOVE FROM OUR FAMILY",
+      "subtitle_gu": "અમારા પરિવાર તરફથી આપ સૌને દિવાળી અને નૂતન વર્ષની હાર્દિક શુભકામનાઓ",
+      "messages_gu": [
+        "આ દિવાળીના પવિત્ર અવસરે આપ સૌના જીવનમાં સુખ, શાંતિ, સમૃદ્ધિ અને આનંદનો પ્રકાશ ફેલાય.",
+        "આવનારું નવું વર્ષ તમારા માટે નવી સફળતાઓ, નવી આશાઓ અને અસંખ્ય ખુશીઓ લઈને આવે.",
+        "આપ સૌનો પ્રેમ અને આશીર્વાદ હંમેશા અમારા પરિવાર પર બની રહે."
+      ],
+      "final_wishes": [
+        "✨ HAPPY DIWALI 2026 ✨",
+        "🪔 સાલ મુબારક – નૂતન વર્ષાભિનંદન 🪔",
+        "પ્રેમ અને શુભેચ્છાઓ સહ...",
+        "અમારા પરિવાર તરફથી આપ સૌને ખૂબ ખૂબ શુભકામનાઓ!"
+      ],
+      "closing_en": "THANK YOU FOR CELEBRATING WITH US!",
+      "theme": {
+        "palette": "golden, premium",
+        "visuals": ["grand Diwali fireworks", "family celebration illustration", "golden background", "glowing diyas", "flower decorations", "festive rangoli"],
+        "animations": ["grand fireworks show", "golden confetti", "floating diyas", "animated family wishes", "fade-out to closing line"]
+      },
+      "feature": {
+        "name": "Create Your Family Diwali Greeting",
+        "description": "Visitor enters family name, a greeting card is generated, they download it as an image or share on WhatsApp."
+      }
+    },
+    {
+      "id": "greeting-card",
+      "number": 9,
+      "date": null,
+      "date_label": null,
+      "title_en": "CREATE YOUR GREETING CARD",
+      "subtitle_gu": "તમારું ગ્રીટિંગ કાર્ડ બનાવો"
+    },
+    {
+      "id": "find-me",
+      "number": 10,
+      "date": null,
+      "date_label": null,
+      "title_en": "FIND ME",
+      "subtitle_gu": "મને અહીં મળો",
+      "wish_gu": "આ દિવાળી અને નૂતન વર્ષ તમારા જીવનમાં પ્રકાશ, પ્રેમ અને ખુશીઓ લઈને આવે. આ ઉજવણીમાં જોડાવા બદલ દિલથી આભાર!",
+      "wish_en": "May this Diwali and New Year bring light, love and joy to your life. Thank you for celebrating with us!",
+      "signature": "— Pritesh R. Makwana / પ્રિતેશ આર. મકવાણા"
+    }
+  ],
+
+  "ui_labels": {
+    "next": "Next",
+    "previous": "Previous",
+    "home": "Home",
+    "music_on": "Music ON",
+    "music_off": "Music OFF",
+    "mute": "Mute",
+    "volume": "Volume",
+    "burst_button": "BURST OF FIREWORKS"
+  }
+}

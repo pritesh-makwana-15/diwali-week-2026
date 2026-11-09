@@ -1,0 +1,65 @@
+/* responsive.css - tested at 360px, 768px and 1280px. Base styles in style.css are mobile first. */
+
+/* tablet and up */
+@media (min-width:768px){
+  :root{--hud-t:64px;--hud-bh:76px}
+  .btn--home .btn__label,.btn--nav .btn__label,#btn-music .btn__label,#btn-mute .btn__label{display:inline}
+  .btn{font-size:.95rem}
+  .vol input{width:110px}
+  .tl-dot{width:34px;height:34px;font-size:.8rem}
+  .duo{grid-template-columns:1fr 1fr}
+  .memes{grid-template-columns:1fr 1fr;gap:22px}
+  .bij-wrap{flex-direction:row;align-items:center;gap:36px}
+  .bij-art{flex:1 1 46%}.bij-text{flex:1 1 54%}
+  .p8-grid{grid-template-columns:1.1fr .9fr;gap:28px}
+  .diya-row .diya{width:calc(var(--k)*var(--s,1)*24px);height:calc(var(--k)*var(--s,1)*18px)}
+  .house{max-height:36vh}
+  .frame{inset:calc(var(--hud-t) + 4px) 14px calc(var(--hud-b) - 4px)}
+}
+
+/* desktop */
+@media (min-width:1200px){
+  .page__inner{gap:20px}
+  .msg p{font-size:1.45rem}
+  .title-en{font-size:clamp(3rem,5.4vw,5.6rem)}
+  .title-en--long{font-size:clamp(2rem,3.6vw,3.5rem)}
+  .title-en--hero{font-size:clamp(4rem,7vw,7rem)}
+  .memes{gap:26px}
+  .meme p{font-size:1.3rem}
+}
+
+/* small phones (360px): tighten */
+@media (max-width:420px){
+  .hud--top{gap:4px}
+  .btn--icon{padding:8px 10px}
+  .vol input{width:56px}
+  .page-indicator{font-size:.95rem;padding:5px 10px}
+  .timeline li+li::before{width:3px}
+  .tl-dot{width:26px;height:26px;font-size:.65rem}
+  .btn--nav{padding:8px 11px}
+  .shubh-row{gap:min(66vw,260px)}
+  .frame{inset:calc(var(--hud-t) + 2px) 5px calc(var(--hud-b) - 6px);border-radius:14px}
+  .p4-controls .btn{width:100%}
+  .house{max-height:28vh}
+}
+
+/* landscape phones / short windows */
+@media (max-height:560px){
+  :root{--hud-t:48px;--hud-bh:58px}
+  .page__inner{gap:8px;padding-top:calc(var(--hud-t) + 8px);padding-bottom:calc(var(--hud-b) + 8px)}
+  .title-en{font-size:clamp(1.5rem,5vw,2.6rem)}
+  .title-en--hero{font-size:clamp(1.7rem,6vw,3.4rem)}
+  .opening__diyas .lottie--lotus{width:90px}.opening__diyas .lottie--diya{width:60px}
+  .p4-inner{padding-top:calc(var(--hud-t) + 8px)}
+  .house{max-height:30vh}
+  .btn{min-height:40px;padding:6px 12px}
+}
+
+/* ---------- reduced motion: no heavy effects ---------- */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;animation-delay:0s!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  .bg{transform:none}
+  .dust,.mandala{display:none}
+  .diya.lit .diya__flame,.cdiya.lit .diya__flame{animation:none;opacity:1}
+  .tilak-dot,.rice{opacity:1}
+}

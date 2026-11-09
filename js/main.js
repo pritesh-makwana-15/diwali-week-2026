@@ -345,7 +345,7 @@
     ['#f-name', '#op-name'].forEach((q) => $(q).addEventListener('click', openWelcome));
     $('#c-change').addEventListener('click', openWelcome);
     // visitor count (needs "Allow adding visitor counts" enabled in GoatCounter settings; hidden if it fails)
-    try { fetch('https://priteshmakwana.goatcounter.com/counter/TOTAL.json').then((r) => (r.ok ? r.json() : null)).then((j) => { const n = j && (j.count_unique || j.count); if (n) { const t = U.views + ': ' + String(n).replace(/[^\d,\s.]/g, ''); ['#w-views', '#f-views'].forEach((q) => { const v = $(q); v.textContent = t; v.hidden = false; }); } }).catch(() => {}); } catch (e) {}
+    try { fetch('https://priteshmakwana.goatcounter.com/counter/TOTAL.json?t=' + Math.floor(Date.now() / 60000), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).then((j) => { const n = j && (j.count_unique || j.count); if (n) { const num = String(n).replace(/[^\d,\s.]/g, ''); const t = U.views + ': ' + num; ['#w-views', '#f-views'].forEach((q) => { const v = $(q); v.textContent = t; v.hidden = false; }); const o = $('#o-views'); o.querySelector('.vcount__n').textContent = num; o.querySelector('.vcount__l').textContent = U.views; o.hidden = false; } }).catch(() => {}); } catch (e) {}
     DW.city = clean(store.get('dw.city')); setNames(clean(store.get('dw.name')));
     openWelcome(); // always shown on load / refresh
 

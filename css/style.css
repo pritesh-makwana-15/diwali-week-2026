@@ -609,3 +609,9 @@ button,input{font:inherit;color:inherit}
 @media (min-width:481px){.fm-photo.has-photo{width:14rem}}
 @media (min-width:900px){.fm-photo.has-photo{width:min(19rem,30%)}}
 @media (max-height:480px){.fm-photo.has-photo{width:min(7rem,26vh)}}
+/* visitor count beside START */
+.opening__cta{display:flex;align-items:center;justify-content:center;gap:clamp(10px,2.5vw,22px);flex-wrap:wrap}
+.vcount{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:92px;padding:8px 18px;border:2px solid var(--gold);border-radius:18px;background:rgba(23,14,45,.55);backdrop-filter:blur(8px);box-shadow:0 6px 24px rgba(0,0,0,.4),0 0 18px rgba(255,215,0,.25);line-height:1.1}
+.vcount[hidden]{display:none}
+.vcount__n{font-family:var(--f-en);font-weight:900;font-size:clamp(1.9rem,6vw,3rem);color:var(--gold);text-shadow:0 0 18px rgba(255,170,0,.5)}
+.vcount__l{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--cream)}

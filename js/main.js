@@ -328,13 +328,13 @@
     // fire-and-forget save to the Google Sheet (never blocks or shows errors; once per name+city per session)
     function saveSheet(name, city, gender) {
       try {
-        if (navigator.doNotTrack === '1' || !name || !window.SHEET_URL || ($('#w-website') && $('#w-website').value)) return;
-        const key = name + '|' + city + '|' + gender; if (store.get('dw.sent') === key) return; store.set('dw.sent', key);
+        if (navigator.doNotTrack === '1' || !window.SHEET_URL || ($('#w-website') && $('#w-website').value)) return;
+        // every START click adds one row (refresh + START counts again), even if the form was skipped
         fetch(window.SHEET_URL, { method: 'POST', mode: 'no-cors', keepalive: true, body: JSON.stringify({ name, city, gender, website: '' }) }).catch(() => {});
       } catch (e) {}
     }
     function closeWelcome(save) {
-      if (save) { DW.city = clean(wc.value); DW.gender = okGender(wg.value); store.set('dw.gender', DW.gender); setNames(clean(wi.value)); saveSheet(DW.name, DW.city, DW.gender); if (DW.fx.refreshScene) DW.fx.refreshScene(); }
+      if (save) { DW.city = clean(wc.value); DW.gender = okGender(wg.value); store.set('dw.gender', DW.gender); setNames(clean(wi.value)); if (DW.fx.refreshScene) DW.fx.refreshScene(); }
       store.set('dw.name', DW.name || ''); store.set('dw.city', DW.city || ''); wm.hidden = true;
       A.start(); // user click => calm default track starts (browsers block audio before this)
     }
@@ -370,7 +370,7 @@
     DW.fx.openingIn();
 
     const go = () => {
-      A.start();
+      A.start(); saveSheet(DW.name || '', DW.city || '', DW.gender || '');
       const i = DW.nav.fromHash();
       DW.nav.showSite(i == null ? 0 : i);
     };

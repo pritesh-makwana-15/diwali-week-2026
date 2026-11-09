@@ -11,7 +11,7 @@
     'kali-chaudas': 'assets/music/khali.mp3',
     'main-diwali': 'assets/music/diwali.mp3',
     'gujarati-fun-day': 'assets/music/dhoko.mp3',
-    'gujarati-new-year': 'assets/music/newyear.mp3',
+    'gujarati-new-year': 'assets/music/newyear1.mp3',
     'bhai-bij': 'assets/music/bhai-bij.mp3',
     'family-wishes': 'assets/music/family.mp3'
   };

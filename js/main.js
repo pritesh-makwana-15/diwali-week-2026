@@ -344,8 +344,8 @@
     $('#w-skip').addEventListener('click', () => { wi.value = ''; wc.value = ''; wg.value = ''; closeWelcome(true); });
     ['#f-name', '#op-name'].forEach((q) => $(q).addEventListener('click', openWelcome));
     $('#c-change').addEventListener('click', openWelcome);
-    // visitor count (needs "Allow adding visitor counts" enabled in GoatCounter settings; hidden if it fails)
-    try { fetch('https://priteshmakwana.goatcounter.com/counter/TOTAL.json?t=' + Math.floor(Date.now() / 60000), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).then((j) => { const n = j && (j.count_unique || j.count); if (n) { const num = String(n).replace(/[^\d,\s.]/g, ''); const t = U.views + ': ' + num; ['#w-views', '#f-views'].forEach((q) => { const v = $(q); v.textContent = t; v.hidden = false; }); const o = $('#o-views'); o.querySelector('.vcount__n').textContent = num; o.querySelector('.vcount__l').textContent = U.views; o.hidden = false; } }).catch(() => {}); } catch (e) {}
+    // visitor count read from the Google Sheet (doGet); hidden if it fails
+    try { if (window.SHEET_URL) fetch(window.SHEET_URL + '?t=' + Date.now()).then((r) => r.json()).then((j) => { const n = j && j.count; if (n || n === 0) { const o = $('#o-views'); o.querySelector('.vcount__n').textContent = n; o.querySelector('.vcount__l').textContent = U.views; o.hidden = false; const f = $('#f-views'); f.textContent = U.views + ': ' + n; f.hidden = false; } }).catch(() => {}); } catch (e) {}
     DW.city = clean(store.get('dw.city')); setNames(clean(store.get('dw.name')));
     openWelcome(); // always shown on load / refresh
 

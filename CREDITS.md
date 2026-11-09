@@ -18,7 +18,7 @@ All from Wikimedia Commons, licensed **CC BY-SA** (attribution required, share-a
 `assets/images/og-image.jpg` (1200x630 WhatsApp preview) is generated from `bg-choti-diwali-lamps.webp` plus the project's own text/diyas, so it inherits CC BY-SA 4.0 from that photo.
 
 ## Music (assets/music/)
-Pages 2-6 (`laxmi.mp3`, `khali.mp3`, `diwali.mp3`, `dhoko.mp3`, `newyear.mp3`): provided by the site owner (the site owner is responsible for the rights to these tracks).
+Pages 2-6 (`laxmi.mp3`, `khali.mp3`, `diwali.mp3`, `dhoko.mp3`, `newyear1.mp3`): provided by the site owner (the site owner is responsible for the rights to these tracks).
 
 ### Mixkit Free Stock Music (default, page 1, 7, 8-10)
 Licensed under the **Mixkit License** (free for commercial and non-commercial use, no attribution required, https://mixkit.co/license/#musicFree). Re-encoded to MP3 128 kbps, with a 3 s fade-out at the end of each file.

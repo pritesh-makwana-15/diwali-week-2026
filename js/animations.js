@@ -359,6 +359,7 @@
     const s = $('#ws', page), btn = $('#ws-open', page);
     btn.addEventListener('click', () => {
       if (!s.hidden) { wsClose(page); return; }
+      if (DW.track) DW.track('wish');
       wsRender(); s.hidden = false; s.classList.add('is-on'); btn.setAttribute('aria-expanded', 'true');
       s.scrollIntoView({ behavior: isReduced() ? 'auto' : 'smooth', block: 'start' });
       if (window.gsap && !isReduced()) {

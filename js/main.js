@@ -330,9 +330,12 @@
       try {
         if (navigator.doNotTrack === '1' || !window.SHEET_URL || ($('#w-website') && $('#w-website').value)) return;
         // every START click adds one row (refresh + START counts again), even if the form was skipped
-        fetch(window.SHEET_URL, { method: 'POST', mode: 'no-cors', keepalive: true, body: JSON.stringify({ name, city, gender, website: '' }) }).catch(() => {});
+        DW.vid = Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+        fetch(window.SHEET_URL, { method: 'POST', mode: 'no-cors', keepalive: true, body: JSON.stringify({ event: 'start', id: DW.vid, name, city, gender, website: '' }) }).catch(() => {});
       } catch (e) {}
     }
+    // later events for the same visit: page number visited, Wish Together clicked
+    DW.track = (event, page) => { try { if (!DW.vid || !window.SHEET_URL) return; fetch(window.SHEET_URL, { method: 'POST', mode: 'no-cors', keepalive: true, body: JSON.stringify({ event, id: DW.vid, page: page || 0 }) }).catch(() => {}); } catch (e) {} };
     function closeWelcome(save) {
       if (save) { DW.city = clean(wc.value); DW.gender = okGender(wg.value); store.set('dw.gender', DW.gender); setNames(clean(wi.value)); if (DW.fx.refreshScene) DW.fx.refreshScene(); }
       store.set('dw.name', DW.name || ''); store.set('dw.city', DW.city || ''); wm.hidden = true;

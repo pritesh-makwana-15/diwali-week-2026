@@ -61,6 +61,7 @@
       nb.disabled = false; nb.classList.toggle('is-back', last); $('.btn__label', nb).textContent = lab; nb.setAttribute('aria-label', lab);
       if (history.replaceState) history.replaceState(null, '', '#p' + (i + 1));
       try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: '/page-' + (i + 1), title: nav.content.pages[i].title_en }); } catch (e) {}
+      if (DW.track) DW.track('page', i + 1);
     },
 
     go(i, opts) {
